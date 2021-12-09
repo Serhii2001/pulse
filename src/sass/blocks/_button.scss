@@ -1,0 +1,28 @@
+* {
+    font-size: 10px;
+}
+
+.bttn {
+    width: 15.3rem;
+    height: 3.2rem;
+    background-color: $main-color;
+    border-radius: .5rem;
+    border: none;
+    font-family: 'Museo Medium';
+    font-size: 1.2rem;
+    line-height: 1.9rem;
+    color: #fff;
+    text-transform: uppercase;
+    &_big {
+        margin-top: 6.5rem;
+        width: 30rem;
+        height: 5rem;
+        font-size: 1.6rem;
+        line-height: 2.5rem;
+    }
+    &_submit {
+        width: 100%;
+        height: 5.8rem;
+        font-size: 1.6rem;
+    }
+}

@@ -1,0 +1,14 @@
+.consultation {
+    min-height: 68rem;
+    background: url(../../img/bg2.png) center (center/cover) no-repeat;
+    padding: 10rem 0 10.8rem 0;
+    &__descr {
+        margin-top: 0.8rem;
+        font-family: 'Museo Light';
+        font-size: 2rem;
+        line-height: 2.7rem;
+        color: #FFFFFF;
+        width: 42.6rem;
+    }
+    
+}

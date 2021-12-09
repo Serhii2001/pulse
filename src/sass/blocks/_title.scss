@@ -1,0 +1,15 @@
+.title {
+    font-family: 'Museo Bold';
+    font-size: 3rem;
+    line-height: 3rem;
+    color: #0D0D0D;
+    text-align: center;
+    text-transform: uppercase;
+    &_left {
+        font-size: 3.6rem;
+        line-height: 5.4rem;
+        color: #FFFFFF;
+        width: 79rem;
+        text-align: left;
+    }
+}
