@@ -114,14 +114,14 @@ address {
 
 ol,
 ul {
-  padding-left: 2rem;
+  padding-left: 0rem;
 }
 
 ol,
 ul,
 dl {
   margin-top: 0;
-  margin-bottom: 1rem;
+  margin-bottom: 0rem;
 }
 
 ol ol,

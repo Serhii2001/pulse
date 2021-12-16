@@ -1,0 +1,72 @@
+// .reviews {
+//     padding: 0 0 5rem 0;
+//     &__wrapper {
+//         margin-top: 6rem;
+//         display: flex;
+//         &:nth-child(n+2) {
+//             margin-top: 8.5rem;
+//         }
+//     }
+//     &__img {
+//         min-width: 16.9rem;
+//         min-height: 16.9rem;
+//     }
+//     &__text {
+//         margin-left: 62px;
+//         padding-right: 60px;
+//     }
+//     &__subtitle {
+//         font-family: 'Museo Bold';
+//         font-size: 1.8rem;
+//         line-height: 1.8rem;
+//         color: #0D0D0D;
+//     }
+//     &__label {
+//         font-family: 'Museo Medium';
+//         font-size: 1.4rem;
+//         line-height: 2.2rem;
+//         color: #646464;
+//     }
+//     &__descr {
+//         margin-top: 1rem;
+//         font-family: 'Museo Light';
+//         font-size: 1.6rem;
+//         line-height: 2.4rem;
+//         color: #0D0D0D;
+//     }
+// }
+
+.feed {
+    padding-bottom: 7rem;
+    &__item {
+        display: flex;
+        margin-top: 6rem;
+        &:nth-child(n+2){
+            margin-top: 7rem;
+        }
+    }
+    &__img {
+        width: 16.9rem;
+        height: 16.9rem;
+    }
+    &__text {
+        margin-left: 6.2rem;
+        padding-right: 6rem;
+    }
+    &__subtitle {
+        font-family: 'Museo Bold';
+        color: #0d0d0d;
+        font-size: 1.8rem;
+    }
+    &__count {
+        font-family: 'Museo Medium';
+        color: #646464;
+        font-size: 1.4rem;
+    }
+    &__descr {
+        font-family: 'Museo Light';
+        color: #0d0d0d;
+        font-size: 16px;
+        margin-top: 1rem;
+    }
+}
