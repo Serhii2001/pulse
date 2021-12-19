@@ -1,0 +1,41 @@
+.footer {
+    height: 63rem;
+    position: relative;
+    &__info {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        padding: 5rem 5.4rem 5.6rem 5.4rem;
+        position: absolute;
+        width: 46rem;
+        height: 27rem;
+        background: $main-color;
+    }
+    &__addr {
+        font-family: 'Museo Medium';
+        font-size: 2rem;
+        line-height: 2rem;
+        color: #FFFFFF;
+        text-align: center;
+        margin-bottom: 0;
+    }
+    &__phone {
+        display: block;
+        margin-top: 3.6rem;
+        font-family: 'Museo Bold';
+        font-size: 2rem;
+        line-height: 2rem;
+        color: #FFFFFF;
+        text-align: center;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+    &__social {
+        margin: 3.6rem auto 0 auto;
+        display: flex;
+        justify-content: space-between;
+        width: 21.2rem;
+    }
+}
